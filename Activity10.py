@@ -12,11 +12,11 @@ if DLL.lower()=="yes":
     if isLevel.lower() =="f":
       print("WELCOME ABOARD FRESHMEN!! HOPE YOU ENJOY YOUR STAY")
     elif isLevel.lower() =="s":
-      print("WELCOME SOPHOMORE! ")
+      print("WELCOME SOPHOMORE! ARE YOU STILL ENJOYING YOUR STAY? ")
     elif isLevel.lower() =="j":
-      print("WELCOME JUNIOR")
+      print("WELCOME JUNIOR! THERE'S NO TURNING BACK")
     elif isLevel.lower() =="ss":
-      print("WELCOME SENIOR")
+      print("WELCOME SENIO ONE LAST YEAR PUSH THROUGH")
   else:
     print("Sorry you are not welcome here")
 
