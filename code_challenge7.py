@@ -1,6 +1,6 @@
 #age discount system
 
-wc= input("Good Mornning Customer! Welcome to Morning Grocery store where it's always good and it's always cheap \b.")
+wc= input("Good Morning Customer! Welcome to Morning Grocery store where it's always good and it's always cheap \b.")
 name= input ("What is your name? ")
 age =int(input( "How old are you? "))
 item_name= input( "What would you like to buy? ")
