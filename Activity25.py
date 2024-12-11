@@ -1,2 +1,2 @@
 #vocab
-print
+print("")
