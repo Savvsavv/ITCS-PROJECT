@@ -14,3 +14,4 @@ def Activity7(): #ACTIVITY 7 CODE
         print(f"Hi {miner}, today you have a total of {gold} gold")
     else:
         print(f"Hi {miner}, today you have a total of {gold} gold")
+Activity7()
