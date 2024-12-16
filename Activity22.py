@@ -1,14 +1,24 @@
-import os
 
-def panghello():
-  print("\nHello IT1A")
+def Activity22():
 
-iscontinue =True
+    def panghello():
+        print("\nHello IT1A")
+    import os
+    is_continue = True
 
-while isContinue:
-  print("\nSelect from the following code \n1-PANGHELLO")
+    while is_continue:
+      os.system('cls')
+        print("\nSelect from the following code:")
+        print("1 - PANGHELLO")
+        print("2 - Exit")
 
-ask= input("Which would you like to run?elect from the options above")
+        ask = input("Which would you like to run? Select from the options above: ")
+        if ask == "1":
+            panghello()
+        elif ask == "2":
+            print("Exiting The Program")
+            is_continue = False
+        else:
+            print("Invalid. Please try again.")
 
-if ask 1 =="1":
-  panghello()
+Activity22()
