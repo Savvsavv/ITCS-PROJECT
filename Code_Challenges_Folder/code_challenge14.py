@@ -16,4 +16,4 @@ def Code_Challenge14():
 
     # Print total sum
     print(f"The sum of all the numbers given is {total_sum}")
-Code_Challenge14()
+

@@ -19,4 +19,3 @@ def Code_Challenge13():
 		for a in range (1, x+1):
 			print(a, end=" ")
 		print ()
-Code_Challenge13()

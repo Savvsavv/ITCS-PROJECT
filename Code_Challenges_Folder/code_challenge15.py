@@ -26,5 +26,4 @@ def Code_Challenge15():
 			os.system ("cls")
 			print("Invalid answer, please only answer 'yes or 'no")
 			continue
-			
-Code_Challenge15()
+
