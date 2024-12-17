@@ -5,4 +5,4 @@ def Activity17():
     for y in range(1, column+1):
       print(f"{x} x {y} = {x*y}", end ="\t")
     print()
-Activity17()
+

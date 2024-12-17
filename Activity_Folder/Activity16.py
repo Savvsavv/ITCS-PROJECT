@@ -7,4 +7,4 @@ def Activity16():
     for a in range (6,x,-1):
       print("*", end=" ")
     print()
-Activity16()
+

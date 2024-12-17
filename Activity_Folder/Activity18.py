@@ -8,4 +8,4 @@ def Activity18():
                for z in range (5,x,-1):
                     print(" ", end=" ")
           print()
-Activity18()
+

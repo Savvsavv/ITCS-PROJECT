@@ -7,4 +7,3 @@ def Activity13():
 
   print(factor)
 
-Activity13()

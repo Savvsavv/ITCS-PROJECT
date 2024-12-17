@@ -8,4 +8,4 @@ def Activity15():
     for y in range (0,x):
       print(" * ",end=" ")
     print()
-Activity15()
+
