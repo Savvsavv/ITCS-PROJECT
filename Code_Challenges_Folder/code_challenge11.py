@@ -18,4 +18,4 @@ def Code_Challenge11():
         for a in range (1,x+1):
             print ("*" , end= " ")
         print ()
-Code_Challenge11()
+

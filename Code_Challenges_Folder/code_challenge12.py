@@ -18,4 +18,4 @@ def Code_Challenge12():
 		for d in range (1, 8):
 			print ("^", end= " ")
 		print ()
-Code_Challenge12()
+
