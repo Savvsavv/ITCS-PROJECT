@@ -1,4 +1,4 @@
-def Code_Challenge8():
+
 	password =input('Enter your password--> ')
 
 	if password.lower() =="hello" :
@@ -8,4 +8,4 @@ def Code_Challenge8():
 	else:
 		print("Access Denied")
 	print ("System Exit")
-Code_Challenge8()
+
