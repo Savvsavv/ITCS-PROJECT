@@ -4,4 +4,3 @@ def Activity24():
     #from other_folder imoort Math_Module
 
     print(f"thr factorial of 7 is {factorial(7)}")
-Activity24()
