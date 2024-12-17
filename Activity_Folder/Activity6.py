@@ -11,4 +11,4 @@ def Activity6():
 
     x=x+30
     print(x)
-Activity6():
+

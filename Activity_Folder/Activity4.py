@@ -13,4 +13,3 @@ def Activity4():
 	print("The product of", num1, "and ", num2, "is " ,times )
 	print("The dqquotient of", num1, "and ", num2, "is " ,divide )
 
-Activity4()

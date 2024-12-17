@@ -32,4 +32,4 @@ def Activity3():
        + zipcode + ". My number is " ,number , " and as for my email it is " + email + 
        ". I am enrolled and currently studying at " + school + " and a BSIT student")
 
-Activity3()
+
