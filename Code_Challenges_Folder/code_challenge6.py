@@ -16,4 +16,3 @@ def Code_Challenge6():
 				print("Sorry, you failed.")
 	else:
 		print("Error: All grades must be between 0 and 100.")
-Code_Challenge6()

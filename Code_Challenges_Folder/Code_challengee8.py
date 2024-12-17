@@ -7,4 +7,4 @@ def Code_Challenge8():
 		sum +=num
 
 	print(f"The sum of all the numbers given is {sum} ")
-Code_Challenge8()
+
