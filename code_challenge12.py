@@ -1,3 +1,4 @@
+def Code_Challenge12():
 #arrow
 
 #arrow up
@@ -17,3 +18,4 @@ for a in range (1, 11):
 	for d in range (1, 8):
 	       print ("^", end= " ")
 	print ()
+Code_Challenge12()
