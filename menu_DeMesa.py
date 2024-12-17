@@ -11,9 +11,6 @@ from Code_Challenges_Folder import (code_challenge1, Code_Challenge2, code_chall
                                     code_challenge6, code_challenge7, Code_challengee8, code_challenge9, 
                                     code_challenge10, code_challenge11, code_challenge12, code_challenge13,
                                     code_challenge14,code_challenge15,code_challenge16)
-# Function to clear the screen
-def Clear():
-    os.system("cls" if os.name == "nt" else "clear")
 
 # Main Menu
 def M_Menu():
@@ -52,14 +49,14 @@ def Code_Challenge():
         **************************************
                  -Compiled Projects- 
                     CODE CHALLENGE
-        ************************************** """
+        ************************************** 
         
-        "\n\t [1] -Code_Challenge#1     \t [2] -Code_Challenge#2    \t [3] -Code_Challenge#3"
-        "\n\t [4] -Code_Challenge#4     \t [5] -Code_Challenge#5    \t [6] -Code_Challenge#6"
-        "\n\t [7] -Code_Challenge#7     \t [8] -Code_Challenge#8    \t [9] -Code_Challenge#9"
-        "\n\t [10] -Code_Challenge#10   \t[11] -Code_Challenge#11   \t[12] -Code_Challenge#12"
-        "\n\t [13] -Code_Challenge#13   \t[14] -Code_Challenge#14   \t[14] -Code_Challenge#15"
-        "\n\t [16] -Code_Challenge#16   \t[0] -Program Terminated")
+        \n\t [1] -Code_Challenge#1     \t [2] -Code_Challenge#2    \t [3] -Code_Challenge#3
+        \n\t [4] -Code_Challenge#4     \t [5] -Code_Challenge#5    \t [6] -Code_Challenge#6
+        \n\t [7] -Code_Challenge#7     \t [8] -Code_Challenge#8    \t [9] -Code_Challenge#9
+        \n\t [10] -Code_Challenge#10   \t[11] -Code_Challenge#11   \t[12] -Code_Challenge#12
+        \n\t [13] -Code_Challenge#13   \t[14] -Code_Challenge#14   \t[14] -Code_Challenge#15
+        \n\t [16] -Code_Challenge#16   \t[0] -Program Terminated""")
         
         try:
             num = int(input("\nPlease choose a number: "))
@@ -114,17 +111,17 @@ def Activities():
         **************************************
                  -Compiled Projects- 
                       ACTIVITIES
-        ************************************** """
+        ************************************** 
         
-        "\n\t [1] -Activity#1       \t [2] -Activity#2          \t [3] -Activity#3"
-        "\n\t [4] -Activity#4       \t [5] -Activity#5          \t [6] -Activity#6"
-        "\n\t [7] -Activity#7       \t [8] -Activity#8          \t [9] -Activity#9"
-        "\n\t [10] -Activity#10     \t[11] -Activity#11         \t[12] -Activity#12"
-        "\n\t [13] -Activity#13     \t[14] -Activity#14         \t[14] -Activity#15"
-        "\n\t [16] -Activity#16     \t[17] -Activity#17         \t[18] -Activity#18"
-        "\n\t [19] -Activity#19     \t[20] -Activity#20         \t[21] -Activity#21"
-        "\n\t [22] -Activity#22     \t[23] -Activity#23         \t[24] -Activity#24"
-        "\n\t [25] -Activity#25     \t [0] -Program Terminated")
+        \n\t [1] -Activity#1       \t [2] -Activity#2          \t [3] -Activity#3
+        \n\t [4] -Activity#4       \t [5] -Activity#5          \t [6] -Activity#6
+        \n\t [7] -Activity#7       \t [8] -Activity#8          \t [9] -Activity#9
+        \n\t [10] -Activity#10     \t[11] -Activity#11         \t[12] -Activity#12
+        \n\t [13] -Activity#13     \t[14] -Activity#14         \t[14] -Activity#15
+        \n\t [16] -Activity#16     \t[17] -Activity#17         \t[18] -Activity#18
+        \n\t [19] -Activity#19     \t[20] -Activity#20         \t[21] -Activity#21
+        \n\t [22] -Activity#22     \t[23] -Activity#23         \t[24] -Activity#24
+        \n\t [25] -Activity#25     \t [0] -Program Terminated""")
         
         try:
             num = int(input("\nPlease choose a number: "))
@@ -186,11 +183,6 @@ def Activities():
                 print("\n[Error: Please choose a valid option.]")
         except ValueError:
             print("\n[Error: Invalid input. Please enter a number.]")
-
-# def Python_Fundamentals():
-#     while True:
-#         try:
-#             print()
 
 # Start the program
 if __name__ == "__main__":
