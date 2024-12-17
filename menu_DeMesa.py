@@ -1,6 +1,7 @@
 # FINAL PROJECT
 import os
 
+print("\n\tWelcome to my First Interactive Program")
 # Importing activities and challenges
 from Activity_Folder import( Activity1, Activity2, Activity3,Activity4,Activity5,Activity6,Activity7, Activity8, 
                             Activity9, Activity10, Activity11, Activity12, Activity13, Activity14, Activity15,Activity16,
@@ -18,8 +19,10 @@ def Clear():
 def M_Menu():
     while True:
         print("""
-        ******** -Compiled Projects- **********
+        **************************************
+                 -Compiled Projects- 
                        MENU
+        **************************************
 
         < 1 > - Code_Challenges_Project
         < 2 > - Activity_Folder
@@ -27,7 +30,7 @@ def M_Menu():
         < 0 > - Terminate
         """)
         try:
-            number = int(input("Choose what you want to open: "))
+            number = int(input("\nChoose what you want to open: "))
             if number == 1:
                 Code_Challenge()
             elif number == 2:
@@ -45,8 +48,11 @@ def M_Menu():
 # Code Challenge Menu
 def Code_Challenge():
     while True:
-        print("\n\t     POJECTS COMPILED "
-        "\n\t=========CODE CHALLENGE MENU========"
+        print("""
+        **************************************
+                 -Compiled Projects- 
+                    CODE CHALLENGE
+        ************************************** """
         
         "\n\t [1] -Code_Challenge#1     \t [2] -Code_Challenge#2    \t [3] -Code_Challenge#3"
         "\n\t [4] -Code_Challenge#4     \t [5] -Code_Challenge#5    \t [6] -Code_Challenge#6"
@@ -56,7 +62,7 @@ def Code_Challenge():
         "\n\t [16] -Code_Challenge#16   \t[0] -Program Terminated")
         
         try:
-            num = int(input("Please choose a number: "))
+            num = int(input("\nPlease choose a number: "))
             os.system('cls')
             if num == 1:
                 code_challenge1.Code_Challenge1()
@@ -103,8 +109,12 @@ def Code_Challenge():
 # Activities Menu
 def Activities():
     while True:
-        print("\n\t PROJECTS COMPILED "
-        "\n\t=========ACTIVITY MENU========"
+
+        print("""
+        **************************************
+                 -Compiled Projects- 
+                      ACTIVITIES
+        ************************************** """
         
         "\n\t [1] -Activity#1       \t [2] -Activity#2          \t [3] -Activity#3"
         "\n\t [4] -Activity#4       \t [5] -Activity#5          \t [6] -Activity#6"
@@ -117,7 +127,7 @@ def Activities():
         "\n\t [25] -Activity#25     \t [0] -Program Terminated")
         
         try:
-            num = int(input("Please choose a number: "))
+            num = int(input("\nPlease choose a number: "))
             os.system('cls')
             if num == 1:
                 Activity1.Activity1()
@@ -177,10 +187,11 @@ def Activities():
         except ValueError:
             print("\n[Error: Invalid input. Please enter a number.]")
 
-def Python_Fundamentals():
-    while True:
-        try:
-            print()
+# def Python_Fundamentals():
+#     while True:
+#         try:
+#             print()
+
 # Start the program
 if __name__ == "__main__":
     M_Menu()
