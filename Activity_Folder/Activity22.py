@@ -20,4 +20,3 @@ def Activity22():
       else:
             print("Invalid. Please try again.")
 
-Activity22()

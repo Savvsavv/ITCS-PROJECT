@@ -734,7 +734,7 @@ def Code_challenge16():#code challenge 16 code
             print("Please enter a valid number.")
 
  
- def MENU():
+def MENU():
     while True:
         print("\n\t =COMPILATION OF PROJECTS="
             "\n\t ==========MAIN MENU============"
