@@ -24,4 +24,4 @@ def Activity10():
   else:
     print("Thanks for stopping by ^_^")
     
-Activity10()
+

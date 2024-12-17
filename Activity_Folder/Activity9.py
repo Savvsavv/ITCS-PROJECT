@@ -19,4 +19,4 @@ def Activity9():
         print("Are you a vampire?")
     else:
         print("Invalid age")
-Activity9()
+

@@ -9,11 +9,11 @@ def Activity8(): #ACTIVITY 8 CODE
     print("Access Granted")
     print("Welcome Back, Master")
 
-  elif passwod.lower()=="graduate":
+  elif password.lower()=="graduate":
     print("Access Granted")
     print("Hello Once Again")
 
   else:
     print("Access Denied")
   print("System Exit")
-Activity8()
+
