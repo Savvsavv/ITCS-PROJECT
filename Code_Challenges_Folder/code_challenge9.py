@@ -7,4 +7,4 @@ def Code_Challenge9():
         for space in range (10-x):
             print ("* ", end= "")
         print ()
-Code_Challenge9()
+
