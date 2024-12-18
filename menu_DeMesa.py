@@ -51,7 +51,7 @@ def M_Menu():
             elif number == 3:
                 python_fundamentals()
             elif number == 0:
-                print("\n👋 Program Terminated. You shall return... right?")
+                print("\n👋 Program Terminated. You shall return.")
                 break
             else:
                 print("\n[💥 ERROR 💥] That's not a valid choice!")
@@ -71,7 +71,7 @@ def Code_Challenge():
         \n\t [7] -Code_Challenge#7     \t [8] -Code_Challenge#8    \t [9] -Code_Challenge#9
         \n\t [10] -Code_Challenge#10   \t[11] -Code_Challenge#11   \t[12] -Code_Challenge#12
         \n\t [13] -Code_Challenge#13   \t[14] -Code_Challenge#14   \t[14] -Code_Challenge#15
-        \n\t [16] -Code_Challenge#16   \t[0] -Program Terminated""")
+        \n\t [16] -Code_Challenge#16   \t[0] -Program Terminated """)
         try:
             num = int(input("\nPick a code challenge number (or 0 to escape): "))
             os.system('cls')
